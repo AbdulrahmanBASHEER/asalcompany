@@ -1,0 +1,499 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 2px 3px  hsl(181.57deg 90.53% 33.14%);
+    border-bottom: 2px solid  hsl(181.57deg 90.53% 33.14%);
+    right: 0px;
+    left: 0px; 
+    top: 0px;
+    z-index: 1;
+    padding-bottom:20px ;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar li {
+    margin: 0 10px;
+}
+.navbar li:hover{
+    opacity: 0.5;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px; 
+    color: black;
+}
+.navbar button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.navbar button:hover{
+    opacity: 0.5;
+}
+
+.HOME{
+    min-height: 100vh;
+    background: url("bg.png");
+    position: relative;
+    top: 200px;
+    background-position: center center;
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.HOME .BOOKSTORE{
+    color: hsl(181.57deg 90.53% 33.14%);
+    font-size: 40px;
+    padding-left: 200px;
+}
+
+.HOME .welcometo{
+font-size: 40px;
+padding-left: 200px;
+line-height: 3px;
+
+}
+.navbar img{
+    height: 60px;
+    width: 90px;
+    padding-top: 10px;
+   
+    
+}
+.HOME button{
+ margin-left: 200px;
+ background-color: hsl(181.57deg 90.53% 33.14%);
+ color: white;
+ border: none;
+ padding: 10px;
+ margin-top: 30px;
+}
+.HOME button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.secondSection{
+display: flex;
+
+justify-content: space-around;
+
+}
+.secondSection div{
+position: relative;
+top: 150px;
+ width: 250px;
+ margin: 70px;
+ text-align: center;
+ padding-top: 10px;
+ box-shadow: 0px 0px 10px  hsl(181.57deg 90.53% 33.14%);
+}
+.secondSection div i {
+    font-size: 30px;
+    color:  hsl(181.57deg 90.53% 33.14%) ;
+}
+.sectionthree{
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+.sectionthree button {
+margin-left: 700px;
+ background-color: hsl(181.57deg 90.53% 33.14%);
+ color: white;
+ border: none;
+ padding: 10px;
+ margin-top: 30px;
+}
+.sectionthree button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.sectionthree .div1{
+    width: 230px;
+    padding-top: 10px;
+  
+}
+.sectionthree .aboutus{
+    
+    margin: 70px;
+    margin-left:700px ;
+    padding-top: 200px;
+    font-size: 60px;
+}
+.sectionthree .paragraph1{
+    font-size: 20px;
+    margin-left: 700px;
+
+
+}
+.section4{
+position: relative;
+top: 100px;
+}
+.section4 .firstheader{
+    font-size: 60px;
+    text-align: center;
+
+}
+.section4 .divproperties{
+
+padding: 10px;
+width: 200px;
+}
+
+.section4 div button {
+     background-color: white;
+    border: 0;
+    padding: 5px;
+    box-shadow: 0px 0px 5px  hsl(181.57deg 90.53% 33.14%);
+    }
+    .section4 div button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+.section4 .scrollbar{
+display: flex;
+overflow-x: auto;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background:  hsl(181.57deg 90.53% 33.14%);
+    border-radius: 10px;
+  }
+.scrollbar::-webkit-scrollbar{
+ 
+
+}
+.scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    
+  }
+  
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background:  hsl(181.57deg 90.53% 33.14%);
+    border-radius: 10px;
+  }
+  
+ 
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+.section4 .divproperties{
+    width: 500px;
+    height: 530px;
+    border: 1.7px solid grey;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    
+
+
+    }
+    .section4 .divproperties:hover{
+      
+        box-shadow: 0 0 5px  hsl(181.57deg 90.53% 33.14%);
+    
+    
+        }
+    .section4 div img{
+        width: 200px;
+        height: 300px;
+    }
+    .section4 .greyspan{
+        color: grey;
+        
+    }
+    .section4 .hslspan{
+        color: hsl(181.57deg 90.53% 33.14%) ;
+    }
+ .newarrivals{
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+ }
+   .newarrivals h1{
+    font-size: 60px;
+    text-align: center;
+   }
+   .newarrivals .div2{
+    text-align: center;
+    margin: 30px;
+    border: 2px solid hsl(0, 0%, 83%);
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    }
+    .newarrivals img{
+        width: 75%;
+       height: 70%;
+        margin: 5px;
+       object-fit: cover;
+       transition: transform 0.8s ;
+    }
+    .newarrivals img:hover{
+      transform: scale(1.06);
+    }
+    .newarrivals div button{
+    background-color: white;
+    border: 0;
+    padding: 5px;
+    box-shadow: 0px 0px 5px  hsl(181.57deg 90.53% 33.14%);
+    }
+    .newarrivals div button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    .newarrivals .newarrivalsmaindiv{
+        display: flex;
+        border: none;
+    }
+    .newarrivals .div2:hover{
+        cursor: pointer;
+        box-shadow:  0 0 5px  hsl(181.57deg 90.53% 33.14%);
+        }
+        .checked{
+            color: hsl(181.57deg 90.53% 33.14%) ;
+        }
+        .review{
+            margin-left: 120px;
+            margin-right: 50px;
+         
+        display: flex;
+        position: relative;
+        top: 100px;
+      
+           
+        }
+        .review div{
+            box-shadow: 0 0 8px  hsl(181.57deg 90.53% 33.14%);
+            margin: 10px;
+            width: 300px;
+            height: 270px;
+           
+           
+
+
+        }
+      
+     
+        .review h1{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        
+      .review div p{
+        margin-left: 10px;
+        font-size: 13.5px;
+      }
+     
+      
+        .review div img{
+            margin-left: 10px;
+            margin-top: 10px;
+            position: relative;
+            top: 0;
+            left: 0;
+            border-radius: 100%;
+            width: 20%;
+            height: 20%;
+        }
+        .quote{
+            font-size: 80px;
+            opacity: 0.3;
+           margin-left: 50%;
+        }
+        .reviewheader{
+            text-align: center;
+            font-size: 60px;
+            position: relative;
+            top: 50px;
+        }
+        .digitalbook{
+            position: relative;
+            top: 200px;
+            height: 500px;
+            
+            background: url(banner.jpg);
+            right: 0;
+            left: 0;
+            background-repeat: no-repeat;
+        
+        }
+        
+        
+        .digitalbook button{
+          background-color:hsl(181.57deg 90.53% 33.14%) ;
+          margin-left: 9%;
+          margin-top: 24%;
+          color: white;
+          border: none; 
+          width: 6%;
+          height: 5%;
+          font-size: 15px;
+        }
+        .digitalbook button:hover{
+            cursor: pointer;
+            opacity: 0.8;
+
+        }
+        
+        .ourblog{
+            display: flex;
+        position: relative;
+        top: 100px;
+
+        }
+      .ourblogheader{
+        text-align: center;
+            font-size: 60px;
+            position: relative;
+            top: 180px;
+
+      }
+      .ourblog .maindiv {
+        margin-top: 50px;
+        
+     margin-left: 50px;
+        width:350px ;
+        height: 550px;
+         display: flex;
+        position: relative;
+       
+
+
+
+    }
+    .ourblog .maindiv div{
+    margin-right: 40px;
+    box-shadow: 0 0 15px  grey;
+   height: 460px;
+  
+    
+    }
+    .ourblog .maindiv div p{
+        line-height: 20px;
+        margin-left: 20px;
+        font-size: 17px;
+        
+    }
+    .ourblog .maindiv div:hover{
+        box-shadow: 0 0 8px  hsl(181.57deg 90.53% 33.14%);
+      }
+      .ourblog h1{
+        color: hsl(181.57deg 90.53% 33.14%);
+        line-height: 3px;
+        margin-left: 20px;
+      }
+      .ourblog img{
+        width: 450px;
+        height: 300px;
+      }
+      .ourblog .maindiv div i{
+        color: hsl(181.57deg 90.53% 33.14%);
+        
+      }
+      .ourblog .maindiv div .buttoncalender{
+
+        background: none;
+        border: none;
+        margin-left: 15px;
+      }
+      .heartbutton{
+        background: none;
+        border: none;
+        margin-left: 370px;
+
+      }
+
+.footer{
+    background-color: hsl(0deg 0% 91.76%);
+   
+    position: relative;
+    top: 50px;
+}
+.footer img{
+    width: 90px;
+    height: 40px;
+   
+}
+.footer .maindiv{
+    display: flex;
+    top: 50px;
+    
+}
+.footer .maindiv div{
+    width: 200px;
+    height: 100%;
+    margin-left: 120px;
+    margin-top: 10px;
+
+}
+.footer p{
+line-height: 8px;
+}
+.loremparagraph p{
+    line-height: 20px;
+}
+.contactus i{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.footer .maindiv button{
+    background-color:hsl(181.57deg 90.53% 33.14%) ;
+          
+          color: white;
+          border: none; 
+          width: 50%;
+          height: 22px;
+          border-radius: 10px;
+          font-size: 11px;
+}
+.footer .maindiv button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.footer .maindiv form{
+   margin-bottom: 10px;
+  
+}
+.footer .maindiv form input{
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(0deg 0% 79.22%);
+    height: 20px;
+}
+.design{
+    height: 30px;
+  
+}
